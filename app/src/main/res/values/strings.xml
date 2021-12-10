@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GoFood</string>
+    <string name="nav_header_title">Go Food</string>
+    <string name="nav_header_subtitle">Bienvenido</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_slideshow">Sucursales</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_favoritos">Favoritos</string>
+
+
+    <string name="maps_descripcion1">Nos puedes encontrar cerca de ti</string>
+
+    <string name="home_descripcion1">Encuentra nuestro menu aqui</string>
+    <string name="home_descripcion2">Aprovecha nuestros descuentos</string>
+
+    <string name="menu_descripcion1">Chorizo</string>
+    <string name="menu_descripcion2">Costillas</string>
+    <string name="menu_descripcion3">Lasagna</string>
+    <string name="menu_descripcion4">Pizza</string>
+    <string name="menu_descripcion5">Hamburguesa</string>
+    <string name="menu_descripcion6">Tacos de carne</string>
+    <string name="menu_descripcion7">Tacos al pastor</string>
+    <string name="menu_descripcion8">HotDog</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
