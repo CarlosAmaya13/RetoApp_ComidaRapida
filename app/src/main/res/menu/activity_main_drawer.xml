@@ -14,12 +14,13 @@
             android:title="@string/nav_favoritos" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_map"
             android:title="@string/nav_slideshow" />
         <item
             android:id="@+id/nav_menu"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_baseline_menu_book_24"
             android:title="@string/nav_menu" />
+
 
     </group>
 </menu>

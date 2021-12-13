@@ -27,9 +27,9 @@
         android:name="com.example.reto2.MenuFragment"
         android:label="@string/nav_menu"
         tools:layout="@layout/fragment_menu" />
-    <fragment
-        android:id="@+id/nav_maps"
-        android:name="com.example.reto2.MapsFragment"
-        android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+    <activity
+        android:id="@+id/mainActivitySQL"
+        android:name="com.example.reto2.presentacion.MainActivitySQL"
+        android:label="activity_mainsql"
+        tools:layout="@layout/activity_mainsql" />
 </navigation>

@@ -25,8 +25,6 @@ import com.example.reto2.databinding.FragmentHomeBinding;
 public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
     private HomeViewModel homeViewModel;
-    private ImageView img_menu,img_cupon;
-    private FragmentTransaction intercambio;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

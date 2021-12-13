@@ -25,6 +25,8 @@
     <string name="menu_descripcion6">Tacos de carne</string>
     <string name="menu_descripcion7">Tacos al pastor</string>
     <string name="menu_descripcion8">HotDog</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

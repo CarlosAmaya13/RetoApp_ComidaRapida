@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25dp"
                     android:textAlignment="center"
-                    android:fontFamily="@font/pacificofont"
+                    android:fontFamily="@font/robotoregular"
                     android:text="@string/maps_descripcion1" />
             </LinearLayout>
         </LinearLayout>
