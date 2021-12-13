@@ -18,11 +18,6 @@
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.reto2.ui.slideshow.SlideshowFragment"
-        android:label="@string/nav_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/nav_menu"
         android:name="com.example.reto2.MenuFragment"
         android:label="@string/nav_menu"
@@ -32,4 +27,13 @@
         android:name="com.example.reto2.presentacion.MainActivitySQL"
         android:label="activity_mainsql"
         tools:layout="@layout/activity_mainsql" />
+    <fragment
+        android:id="@+id/fragment_Sucursales"
+        android:name="com.example.reto2.Fragment_Sucursales"
+        android:label="Fragment_Sucursales" />
+    <activity
+        android:id="@+id/listaFavoritos"
+        android:name="com.example.reto2.presentacion.ListaFavoritos"
+        android:label="activity_lista_favoritos"
+        tools:layout="@layout/activity_lista_favoritos" />
 </navigation>

@@ -30,12 +30,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:gravity="center"
                     android:orientation="vertical">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="220dp"
-                        android:gravity="center">
 
                         <ImageView
                             android:id="@+id/img_publicidad1"
@@ -43,32 +39,8 @@
                             android:layout_height="220dp"
                             android:layout_weight="1"
                             android:src="@drawable/publicidad_01" />
-                    </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
 
-                        <ImageView
-                            android:id="@+id/img_publicidad2"
-                            android:layout_width="410dp"
-                            android:layout_height="220dp"
-                            android:layout_weight="1"
-                            android:src="@drawable/publicidad_02" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center">
-
-                        <ImageView
-                            android:id="@+id/img_publicidad3"
-                            android:layout_width="410dp"
-                            android:layout_height="220dp"
-                            android:layout_weight="1"
-                            android:src="@drawable/publicidad_03" />
-                    </LinearLayout>
 
                 </LinearLayout>
 
