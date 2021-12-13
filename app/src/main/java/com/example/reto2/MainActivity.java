@@ -43,11 +43,8 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     private LinearLayout linearLayoutMenu;
-
     private final static int NOTIFICATION_ID = 0;
     private final static String CHANNEL_ID = "NOTIFICACION";
-
-
 
     /**
      * Metodo onCreate
@@ -120,11 +117,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Metodo boton_notificacion, utilizado para crear notificaciones con un titulo y su contenido
+     * @param titulo
+     * @param contenido
+     */
     public void boton_notificacion(String titulo,String contenido){
         createNotificationChannel();
         createNotification(titulo, contenido);
     }
 
+    /**
+     * Metodo para la creacion del canal de la notificacion
+     */
     public void createNotificationChannel(){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             CharSequence name = "Notification";
@@ -134,6 +139,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     * Metodo para la creacion de la notificacion
+     * @param titulo
+     * @param contenido
+     */
     @SuppressLint("ResourceAsColor")
     public void createNotification(String titulo, String contenido){
         NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), CHANNEL_ID);
@@ -149,11 +159,19 @@ public class MainActivity extends AppCompatActivity {
         notificationManagerCompat.notify(NOTIFICATION_ID, builder.build());
     }
 
+    /**
+     * Metodo boton_dialog, utilizado para la creacion de un Dialog
+     * @param v
+     */
     public void boton_dialog(View v){
         createDialog("GoFood!", "Contenido del dialogo");
     }
 
-
+    /**
+     * Metodo para la creacion de un Dialog
+     * @param titulo
+     * @param contenido
+     */
     public void  createDialog(String titulo, String contenido){
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setTitle(titulo);
