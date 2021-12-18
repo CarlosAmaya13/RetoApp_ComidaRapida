@@ -46,4 +46,11 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     /* ---------- Librerias para cargue de mapas OpenStreetView ----------------*/
     implementation 'org.osmdroid:osmdroid-android:6.1.11'
+
+    /* Pticiones CRUD usando Volley a Oracle Cloud */
+    implementation 'com.android.volley:volley:1.2.1'
+
+    /* Picasso */
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
 }

@@ -8,10 +8,7 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_home_24"
             android:title="@string/nav_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_heart"
-            android:title="@string/nav_favoritos" />
+
         <item
             android:id="@+id/listaFavoritos"
             android:icon="@drawable/ic_heart"
@@ -20,6 +17,10 @@
             android:id="@+id/fragment_Sucursales"
             android:icon="@drawable/ic_map"
             android:title="@string/nav_slideshow" />
+        <item
+            android:id="@+id/fragment_Productos"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Menu base de datos online" />
         <item
             android:id="@+id/nav_menu"
             android:icon="@drawable/ic_baseline_menu_book_24"

@@ -3,6 +3,7 @@ package com.example.reto2.presentacion;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,6 +40,7 @@ public class ListaFavoritos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_favoritos);
+        Toast.makeText(getApplicationContext(), "Se ha conectado con la base de datos local", Toast.LENGTH_SHORT).show();
         dbHelper = new DBHelper(getApplicationContext());
         gridView = (GridView) findViewById(R.id.gridView);
 

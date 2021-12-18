@@ -36,4 +36,8 @@
         android:name="com.example.reto2.presentacion.ListaFavoritos"
         android:label="activity_lista_favoritos"
         tools:layout="@layout/activity_lista_favoritos" />
+    <fragment
+        android:id="@+id/fragment_Productos"
+        android:name="com.example.reto2.presentacion.Fragment_Productos"
+        android:label="@string/nav_menu" />
 </navigation>
